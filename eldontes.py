@@ -1,7 +1,7 @@
 import math
 
 n: int = int(input("\nszám: "))
-prim: bool = True
+prim: bool
 
 if n < 2:
     prim = False
